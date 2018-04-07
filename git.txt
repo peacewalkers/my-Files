@@ -1,0 +1,17 @@
+I need static IP for my broadband service. We have raised a request for static IP almost a month ago but we haven't got any response yet. Can you please get this done as early as possible.
+
+
+04048554531
+
+git init
+git add <file name>
+git commit -m"<comments>"
+git status
+git log
+git checkout
+git branch <branch_name>
+git checkout -b <branch_name>
+git checkout master
+git branch 	-	shows list of all branches
+git branch -D <branch_name>	-	to delete a highlighted branch
+

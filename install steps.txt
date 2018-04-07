@@ -1,0 +1,7 @@
+go to git bash 
+composer install(composer update)
+
+npm install
+
+to migrate DBs
+php artisan migrate --seed
