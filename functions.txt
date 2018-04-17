@@ -1,0 +1,17 @@
+Arrow function 
+Anonymus function :- executeCallback( () => console.log('Goodbye'));
+
+Call back funtion :- const person = {
+    name: 'Andrew Chalkley',
+    role: 'JavaScript Teacher'
+}
+
+function logTeacher(teacher) { console.log(`${teacher.name} - ${teacher.role}`);}
+logTeacher(person);
+
+Functions with timer 
+Use setTimeout(funcName, 3000);
+
+For functions to execute at regular intervals
+
+Use setInterval((), 1000);

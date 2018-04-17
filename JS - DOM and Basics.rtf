@@ -23,7 +23,6 @@
 
 \f0\fs24 \cf0 1. Fullstack developer\
 \
-\
 2. What is Javascript {\field{\*\fldinst{HYPERLINK "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"}}{\fldrslt MDN: JavaScript Reference}}\
 \
 3. Link javascript to an external script for e.g.: html page\
@@ -132,5 +131,13 @@ To get value from a DOM - document.querySelector("#linkName").value;\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
 \f0 \cf0 \cb1 \
+To set/change text value e.g.: \
+let inputValue = document.querySelector("#linkName").value;\
+document.querySelector("a").textContent = inputValue;\
+\
 8. Event bubbling : targeting child element(\'93li\'94) may end up targeting parent element(\'91ul\'94) if it also has a event listener, to avoid this use event objects.\
-9. Event Object: to avoid event bubbling, use \'93event.target\'94}
+9. Event Object: to avoid event bubbling, use \'93event.target\'94\
+10. nth child - 
+\f3 \cf4 \cb5 firstElementChild, nextElementSibling, lastElementChild, list.parentNode\
+\
+}
