@@ -1,6 +1,6 @@
 filter()
  Remove array items with filter();
-* Array items can be filtered with forEach as well. So this can be ignored.
+* Array items can be filtered with forEach as well. 
 
 map()
 Creates a new array with the results of calling a provided function.
