@@ -12,6 +12,13 @@ console.log(capitalizedFruits);
 forEach()
 
 reduce()
+arr.reduce(accumulator, currentValue); accumulator keeps adding values returned from currentvalue or default value.
+e.g..  numberOf503 = phoneNumbers.reduce((value, number) =>{
+    if(number.substring(0,5) == "(503)") {
+        return value +1; //if true add 
+    }
+    return value;   //if false ignore
+},0);    //0 is default value.
 
 some()
 
@@ -20,5 +27,3 @@ every()
 find()
 
 findIndex()
-
-charAt(1) = to 
