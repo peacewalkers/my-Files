@@ -27,3 +27,14 @@ every()
 find()
 
 findIndex()
+
+
+Chaining: filter and reduce --
+groceryTotal = purchaseItems.filter( types => types.dept == 'groceries').reduce((cost, types) => {
+    return cost + types.price;
+},0);
+
+let books = users
+.map( user => user.favoriteBooks //first object
+.map(tit => tit.title)). //to select header of object title
+.reduce((acc, name) => acc.concat(name),[]); //to accumulate data.

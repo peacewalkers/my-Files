@@ -1,3 +1,9 @@
+132.148.145.249 (primary) 
+132.148.146.180
+
+dotbitsinc
+Root
+Ech0dish!
 
 
 git init
